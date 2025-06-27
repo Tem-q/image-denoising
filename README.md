@@ -6,9 +6,9 @@ This project explores and compares various methods for image denoising, includin
 
 ## **Table of Contents**
 1. [Overview](#overview)
+1. [Project Structure](#project-structure)
 1. [Dataset](#dataset)
 1. [Results](#results)
-1. [Project Structure](#project-structure)
 1. [License](#license)
 
 ---
@@ -19,6 +19,18 @@ Noise in images is a common issue in computer vision. This project demonstrates 
 - **Deep Learning models:** Simple CNN, U-Net and Autoencoders trained for denoising tasks.
 
 The goal is to evaluate the effectiveness of these methods on a standardized dataset (CIFAR-10).
+
+---
+
+## **Project Structure**
+
+```
+image-denoising/
+│
+├── models/ # Directory for saved model weights
+├── scripts/ # Directory for training and utility scripts
+├── image_denoising.ipynb # Main Jupyter notebook with experiments and comparisons
+```
 
 ---
 
@@ -33,19 +45,6 @@ The project uses the [**CIFAR-10**](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## **Results**
 
-
-
----
-
-## **Project Structure**
-
-```
-image-denoising/
-│
-├── models/ # Directory for saved model weights
-├── scripts/ # Directory for training and utility scripts
-├── image_denoising.ipynb # Main Jupyter notebook with experiments and comparisons
-```
 ---
 
 ## **License**
