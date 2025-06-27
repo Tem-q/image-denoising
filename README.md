@@ -8,7 +8,7 @@ This project explores and compares various methods for image denoising, includin
 1. [Overview](#overview)
 1. [Dataset](#dataset)
 1. [Results](#results)
-1. [Project Structure](#folder-structure)
+1. [Project Structure](#project-structure)
 1. [License](#license)
 
 ---
