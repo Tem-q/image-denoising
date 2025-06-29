@@ -47,7 +47,7 @@ Based on CIFAR-10, noisy dataset was generated using 3 main types of noise: Gaus
 
 ## **Results**
 All models were tested on 3 metrics: MSE, PSNR, SSIM.
-The U-Net model showed the best results, reaching PSNR = 30.73 and SIM = 0.94, which confirms its effectiveness in maintaining both pixel accuracy and structural integrity.
+The U-Net model showed the best results, reaching PSNR = 30.73 and SSIM = 0.94, which confirms its effectiveness in maintaining both pixel accuracy and structural integrity.
 ![image](https://github.com/user-attachments/assets/d620f10d-3155-4225-8cd4-2a18ad9798ed)
 
 For a complete comparison and architecture of the models, see image_denoising.ipynb
